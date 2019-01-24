@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* body{
+  background-color: black;
+  background-image: url("./../images/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background: black url("./../images/bg1.jpg") no-repeat 50% 50% / contain fixed;
+} */
+
+body{
+  background-color: cornsilk;
+  /* background-image: repeating-linear-gradient(red, red 20px, pink 20px, pink 40px)
+} */
+background-image: linear-gradient(to top, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
