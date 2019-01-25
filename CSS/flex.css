@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.wrapper{
+  background-color: yellow;
+  height: 200px;
+  border: 10px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box1, .box2, .box3, .box4{
+  width: 200px;
+  height: 100px;
+}
+.box1{
+  background:#f2f2f2;
+  order: 1;
+}
+.box2{
+  background: #999999;
+  align-items: center;
+}
+.box3{
+  background: #444444;
+  align-items: flex-end;
+}
+.box4{
+  background: #000000;
+  order:-1;
+}
